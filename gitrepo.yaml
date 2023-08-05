@@ -16,7 +16,7 @@ spec:
 #  - influx
 #  - mosquitto
 #  - telegraf
-#  - metallb
+  - metallb
 #  - sealed-secrets
 #  - pdns
 #  - pihole
