@@ -1,9 +1,9 @@
 defaultNamespace: metallb
 helm:
   chart: metallb
-  repo: https://metallb.github.io/metallb 
+  repo: https://github.com/metallb/metallb/archive/refs/tags/v0.13.10.tar.gz
   # chart: https://github.com/metallb/metallb/releases/download/metallb-chart-0.10.2/metallb-0.10.2.tgz
   releaseName: metallb
-  version: v0.13.10
+#  version: v0.13.10
   valuesFiles:
   - values.yaml
